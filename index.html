@@ -1,36 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VCI</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="login">
-    <form class="form-login">
-           <h1>Đăng Ký Tài Khoản</h1>
-           <label for="username">Họ và tên:</label>
-          
-           <input type="text" name="username">
-           
-           <label for="email">Email:</label>
-           
-           <input type="email" name="email">
-           
-           <label for="password">Mật khẩu:</label>
-
-           <input type="text" name="password">
-           
-           <label for="xacnhanmatkhau">Xác nhận mật khẩu:</label>
-           
-           <input type="text" name="xacnhanmatkhau">
-           
-            <button type="submit">Đăng ký</button>
-
+  <div class="login-box">
+    <h2>LOGIN FORM</h2>
+    <form>
+      <input type="text" placeholder="User ID" required>
+      <input type="password" placeholder="Password" required>
+      <div class="actions">
+        <a href="#">Forgot Password |</a>
+        <button type="submit">Login</button>
+      </div>
     </form>
-
+    <div class="register">
+      <span>New User</span> <a href="#">Register Here</a>
     </div>
-    
+  </div>
 </body>
 </html>
